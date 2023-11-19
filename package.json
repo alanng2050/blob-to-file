@@ -1,6 +1,6 @@
 {
   "name": "blob-to-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "save blob to file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
