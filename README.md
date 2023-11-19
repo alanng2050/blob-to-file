@@ -1,1 +1,2 @@
-Quickly download blob to file
+- Save Blob to file
+- Save SVG to jpeg | png | svg
