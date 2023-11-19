@@ -24,7 +24,7 @@ export const downloadSvg = async ({
   onFinish,
 }: {
   node: Element | null;
-  format: "image/png" | "image/jpeg" | "image/svg";
+  format: "png" | "jpeg" | "svg";
   name: string;
   size: number;
   onFinish?: () => void;
@@ -33,7 +33,7 @@ export const downloadSvg = async ({
 
   const stringhtml = node.outerHTML;
   const blob = new Blob([stringhtml], { type: "image/svg+xml" });
-  if (format === "image/svg") {
+  if (format === "svg") {
     downloadBlob({ filename: name, blob });
     onFinish?.();
     return;
@@ -57,7 +57,7 @@ export const downloadSvg = async ({
           canvas.remove();
           onFinish?.();
         },
-        format,
+        `image/${format}`,
         1
       );
     };
