@@ -1,18 +1,17 @@
 {
-  "name": "js.download",
+  "name": "js-blob-download",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "description": "save blob to file",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alan",
   "license": "ISC",
   "devDependencies": {
     "tsc": "^2.0.4",
