@@ -1,5 +1,5 @@
 {
-  "name": "js-blob-download",
+  "name": "blob-to-file",
   "version": "1.0.0",
   "description": "save blob to file",
   "main": "dist/index.js",
@@ -16,5 +16,9 @@
   "devDependencies": {
     "tsc": "^2.0.4",
     "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanng2050/blob-to-file.git"
   }
 }
